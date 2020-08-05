@@ -1,15 +1,11 @@
 import React from 'react';
-import '../style/header.css';
+import Poster from './Poster.js';
+import '../style/App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Margarita Berjón
-        </h1>
-        <h2> UX | Frontend developer</h2>
-      </header>
+      <Poster></Poster>
     </div>
   );
 }

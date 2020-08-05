@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
+  --main-font: 'Mulish', sans-serif;
+  --main-color: #47167d;
+  --background-color: #f6efef;
+  --gradient-background: linear-gradient(299deg, rgba(121, 0, 255, 1) 20%, rgba(255, 121, 72, 1) 80%);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: var(--main-font);
 }
 
 a,
