@@ -1,0 +1,17 @@
+.about-me {
+  background-color: var(--background-color);
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.about-me h1,
+p {
+  padding: 1rem;
+}
+
+.about-me-foto {
+  border-radius: 50%;
+  width: 350px;
+}

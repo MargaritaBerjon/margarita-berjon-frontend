@@ -1,6 +1,6 @@
 import React from 'react';
 import Poster from './Poster.js';
-import Main from './Main.js';
+import Main from './AboutMe.js';
 import '../style/App.css';
 
 function App() {
