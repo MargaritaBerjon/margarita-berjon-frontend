@@ -6,7 +6,7 @@
   padding: 1rem;
 }
 
-.about-me-h1,
+.about-me-h2,
 .about-me-p {
   padding: 1rem;
 }
@@ -14,4 +14,24 @@
 .about-me-foto {
   border-radius: 50%;
   width: 350px;
+}
+
+.knowledge {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.knowledge-circle {
+  color: white;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  padding: 1rem;
+  margin: 0.5rem;
 }
