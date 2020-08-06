@@ -27,7 +27,7 @@ function Experience() {
   return (
     <div>
       <div className="experience">
-        <h2 className='experience-h2'>Experiencia laboral</h2>
+        <h2 className='experience-h2'>Experiencia</h2>
         <LeftCard classCard={left} text={<><h3>UX writer</h3><p>The cocktail - 2019</p></>} />
         <RightCard classCard={right} text={<><h3>Digital marketing manager</h3><p>Mariscal Abogados - 2013 a 2018</p></>} />
       </div>
@@ -42,7 +42,6 @@ function Experience() {
         <LeftCard classCard={left} text={<><h3>Analítica web</h3><p>Google 2016</p></>} />
         <RightCard classCard={right} text={<><h3>Community manager</h3><p>Advei 2015</p></>} />
         <LeftCard classCard={left} text={<><h3>Grado en Marketig </h3><p>URJC 2014</p></>} />
-
       </div>
     </div>
   );
