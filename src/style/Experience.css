@@ -1,0 +1,12 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  color: var(--main-color);
+}
+
+.experience-h2 {
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+}
