@@ -1,13 +1,15 @@
 import React from 'react';
 import Poster from './Poster.js';
-import Main from './AboutMe.js';
+import AboutMe from './AboutMe.js';
+import Experience from './Experience/Experience.js';
 import '../style/App.css';
 
 function App() {
   return (
     <div className="App">
       <Poster></Poster>
-      <Main></Main>
+      <AboutMe></AboutMe>
+      <Experience></Experience>
     </div>
   );
 }

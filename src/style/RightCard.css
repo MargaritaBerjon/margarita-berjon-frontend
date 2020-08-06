@@ -1,0 +1,49 @@
+.hidden {
+  display: none;
+}
+
+.cardOne {
+  width: 315px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  left: 20%;
+  animation-name: cardOne;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.topOne1 {
+  top: 1000px;
+}
+
+.topOne2 {
+  top: 1550px;
+}
+
+.cardOne-div {
+  background-color: white;
+  opacity: 0.7;
+  clip-path: polygon(10% 0%, 100% 1%, 100% 100%, 10% 100%, 0% 50%);
+  border-right: 8px solid rgba(255, 121, 72, 1);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes cardOne {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+}
