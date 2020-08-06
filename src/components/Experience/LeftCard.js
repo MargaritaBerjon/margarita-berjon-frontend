@@ -6,8 +6,7 @@ import '../../style/LeftCard.css'
 
 const CardTwo = ({ classCard, classTop, text }) => (
   <div className={`${classCard} ${classTop}`}>
-    <div><p>{text}</p></div>
-    {/* <img src={manTwo} /> */}
+    <div className='cardTwo-div'>{text}</div>
   </div>
 );
 

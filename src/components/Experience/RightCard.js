@@ -3,7 +3,7 @@ import '../../style/RightCard.css';
 
 const RightCard = ({ classCard, classTop, text }) => (
   <div className={`${classCard} ${classTop}`}>
-    <div className='cardOne-div'><p>{text}</p></div>
+    <div className='cardOne-div'>{text}</div>
   </div>
 );
 

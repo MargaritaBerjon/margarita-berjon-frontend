@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import RightCard from './RightCard.js';
 import LeftCard from './LeftCard.js';
+import '../../style/Main.css';
 
 function Experience(props) {
   const [one, setOne] = useState('hidden')
@@ -21,6 +22,8 @@ function Experience(props) {
 
   function handleAnimation() {
     if (document.documentElement.scrollTop > 50) {
+      console.log(document.documentElement.scrollTop);
+
       setOne('cardOne')
       settopOne1('topOne1')
 
@@ -47,12 +50,16 @@ function Experience(props) {
 
   return (
     <div>
-      <h2>Experiencia laboral</h2>
-      <div className="main" />
-      <RightCard classCard={one} classTop={topOne1} text={<><h3>UX writer</h3><p>The cocktail - 2019</p></>} />
-      <LeftCard classCard={two} classTop={topTwo1} text='Yes, What time suits you?' />
-      <RightCard classCard={onee} classTop={topOne2} text='I was thinking after lunch' />
-      <LeftCard classCard={twoo} classTop={topTwo2} text='That is Perfect!' />
+      <div className="experience">
+        <h2>Experiencia laboral</h2>
+        <LeftCard classCard={one} classTop={topOne1} text={<><h3>UX writer</h3><p>The cocktail - 2019</p></>} />
+        <RightCard classCard={two} classTop={topTwo1} text={<><h3>Digital marketing manager</h3><p>Mariscal Abogados - 2013 a 2018</p></>} />
+      </div>
+      <div className="experience">
+        <h2>Formación</h2>
+        <LeftCard classCard={onee} classTop={topOne2} text={<><h3>JavaScript Moderno</h3><p>Udemy 2020</p></>} />
+        <RightCard classCard={twoo} classTop={topTwo2} text={<><h3>Curso intensivo de desarrollo Front End.</h3><p>Adalab 2020</p></>} />
+      </div>
     </div>
   );
 }
