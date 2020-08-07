@@ -1,10 +1,14 @@
 import React from 'react';
+import CardProject from './CardProject.js'
 
-function Projects() {
+function Projects(props) {
+
   return (
-    <div></div>
+    <div>
+      {props.repos.map((project, i) => <CardProject key={i} project={project}></CardProject>)}
+    </div>
   );
 }
-export default Projects;
 
+export default Projects;
 
