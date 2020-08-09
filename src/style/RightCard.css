@@ -29,6 +29,6 @@
   }
   100% {
     opacity: 1;
-    transform: translateX(50vw);
+    transform: translateX(calc(50vw - 23px));
   }
 }

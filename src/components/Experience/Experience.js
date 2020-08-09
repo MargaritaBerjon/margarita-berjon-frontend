@@ -25,13 +25,13 @@ function Experience() {
   };
 
   return (
-    <div>
-      <div className="experience">
+    <div className="experience">
+      <div>
         <h2 className='experience-h2'>Experiencia</h2>
         <LeftCard classCard={left} text={<><h3>UX writer</h3><p>The cocktail - 2019</p></>} />
         <RightCard classCard={right} text={<><h3>Digital marketing manager</h3><p>Mariscal Abogados - 2013 a 2018</p></>} />
       </div>
-      <div className="experience">
+      <div >
         <h2 className='experience-h2'>Formación</h2>
         <LeftCard classCard={left} text={<><h3>JavaScript Moderno</h3><p>Udemy 2020</p></>} />
         <RightCard classCard={right} text={<><h3>Curso intensivo de desarrollo Front End</h3><p>Adalab 2020</p></>} />

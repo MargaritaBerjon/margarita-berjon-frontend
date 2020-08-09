@@ -3,7 +3,6 @@
   color: var(--main-color);
   display: flex;
   align-items: center;
-  padding: 1rem;
 }
 
 .about-me-h2,

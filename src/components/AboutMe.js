@@ -5,7 +5,7 @@ import MargaritaBerjon from '../images/Margarita_Berjon_web.jpg'
 
 function AboutMe() {
   return (
-    <div className="about-me">
+    <section className="about-me">
       <img src={MargaritaBerjon} alt="Foto de Margarita Berjon" className='about-me-foto'></img>
       <div>
         <h2 className='about-me-h2'>Sobre mí</h2>
@@ -24,7 +24,7 @@ function AboutMe() {
           <div className='knowledge-circle'>Invision</div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
