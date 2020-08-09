@@ -2,27 +2,15 @@
   display: none;
 }
 
-.cardOne {
+.card-right {
   margin-bottom: 5px;
-  /* position: relative;
-  z-index: 3;
-  left: 20%; */
-  /* padding-left: 25%; */
-  animation-name: cardOne;
+  animation-name: cardTwo;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
 
-.topOne1 {
-  top: 1000px;
-}
-
-.topOne2 {
-  top: 1550px;
-}
-
-.cardOne-div {
+.card-riht-div {
   opacity: 0.7;
   border-right: 8px solid rgba(255, 121, 72, 1);
   padding: 1rem;

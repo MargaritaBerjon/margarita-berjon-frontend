@@ -4,7 +4,7 @@ import '../style/CardMainProject.css'
 function CardMainProject(props) {
 
   return (
-    <div>
+    <div className='main-project-card'>
       <h3> {props.project.description}</h3>
       <p>Lenguaje principal: {props.project.language}</p>
       <a href={props.project.homepage}> Ver el proyecto</a>

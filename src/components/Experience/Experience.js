@@ -15,11 +15,11 @@ function Experience() {
 
   function handleAnimation() {
     if (document.documentElement.scrollTop > 400) {
-      setLeft('cardOne')
+      setLeft('card-left')
     }
 
     if (document.documentElement.scrollTop > 450) {
-      setRight('cardTwo')
+      setRight('card-right')
     }
 
   };

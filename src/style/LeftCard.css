@@ -2,23 +2,16 @@
   display: none;
 }
 
-.cardTwo {
+.card-left {
   margin-bottom: 5px;
-  animation-name: cardTwo;
+  animation-name: cardOne;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
+  width: fit-content;
 }
 
-.topTwo1 {
-  top: 1200px;
-}
-
-.topTwo2 {
-  top: 1700px;
-}
-
-.cardTwo-div {
+.card-left-div {
   opacity: 0.7;
   border-left: 8px solid rgba(255, 121, 72, 1);
   padding: 1rem;
