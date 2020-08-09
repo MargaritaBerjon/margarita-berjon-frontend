@@ -1,7 +1,21 @@
+.main-proyects-container {
+  background-color: var(--background-color);
+  color: var(--main-color);
+  display: flex;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  color: var(--main-color);
+}
+
+.main-proyects-title {
+  font-size: x-large;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-transform: uppercase;
 }

@@ -5,8 +5,11 @@ import '../style/MainProjects.css'
 function MainProjects(props) {
 
   return (
-    <section>
-      <h2>Proyectos Principales</h2>
+    <section className='main-proyects-container'>
+      <div className='main-proyects-title'>
+        <h2>Proyectos
+        </h2>
+      </div>
       <div className="projects-container">
         {props.repos.filter(project => project.homepage === `https://margaritaberjon.github.io/${project.name}` || project.homepage === `https://margaritaberjon.github.io/${project.name}/` || project.homepage === `https://margaritaberjon.github.io/${project.name}/.`).map((project, i) => <CardMainProjec key={i} project={project}></CardMainProjec>)}
       </div>
