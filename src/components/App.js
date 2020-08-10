@@ -5,6 +5,7 @@ import AboutMe from './AboutMe.js';
 import MainProjects from './MainProjects.js'
 import Experience from './Experience/Experience.js';
 import Contact from './Contact.js';
+import Footer from './Footer.js';
 import '../style/App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <MainProjects repos={projects} ></MainProjects>
       <Experience></Experience>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }
