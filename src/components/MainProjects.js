@@ -12,6 +12,7 @@ function MainProjects(props) {
       </div>
       <div className="projects-container">
         {props.repos.filter(project => project.homepage === `https://margaritaberjon.github.io/${project.name}` || project.homepage === `https://margaritaberjon.github.io/${project.name}/` || project.homepage === `https://margaritaberjon.github.io/${project.name}/.`).map((project, i) => <CardMainProjec key={i} project={project}></CardMainProjec>)}
+        <a href='https://github.com/MargaritaBerjon?tab=repositories' target='_blank' rel='noopener noreferrer' alt='link a todos los repositorios'> Ver todos los repositorios</a>
       </div>
     </section>
 

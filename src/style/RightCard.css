@@ -6,7 +6,7 @@
   margin-bottom: 5px;
   animation-name: cardTwo;
   animation-duration: 3s;
-  animation-timing-function: linear;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
 
