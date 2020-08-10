@@ -14,11 +14,11 @@ function Experience() {
 
 
   function handleAnimation() {
-    if (document.documentElement.scrollTop > 400) {
+    if (document.documentElement.scrollTop > 1000) {
       setLeft('card-left')
     }
 
-    if (document.documentElement.scrollTop > 450) {
+    if (document.documentElement.scrollTop > 1000) {
       setRight('card-right')
     }
 
@@ -41,7 +41,7 @@ function Experience() {
         <RightCard classCard={right} text={<><h3>Photoshop para wordpress y contenidos digitales</h3><p>Advei 2017</p></>} />
         <LeftCard classCard={left} text={<><h3>Analítica web</h3><p>Google 2016</p></>} />
         <RightCard classCard={right} text={<><h3>Community manager</h3><p>Advei 2015</p></>} />
-        <LeftCard classCard={left} text={<><h3>Grado en Marketig </h3><p>URJC 2014</p></>} />
+        <LeftCard classCard={left} text={<><h3>Grado en Marketing </h3><p>URJC 2014</p></>} />
       </div>
     </div>
   );
