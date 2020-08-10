@@ -1,5 +1,4 @@
 .main-proyects-container {
-  background-color: var(--background-color);
   color: var(--main-color);
   display: flex;
 }

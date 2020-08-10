@@ -1,0 +1,21 @@
+.contact-container {
+  padding-top: 1rem;
+  color: var(--main-color);
+}
+
+.contact-h2 {
+  padding-bottom: 1rem;
+  border-bottom: rgba(255, 121, 72, 1) 1px solid;
+  font-size: xx-large;
+}
+
+.contact-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.contact-icon {
+  width: 50px;
+}
