@@ -13,16 +13,12 @@ function Contact() {
         <a href='mailto:margui.berjon@gmail.com' target='_blank' rel='noopener noreferrer' alt='contactar por mail'>
           <img className='contact-icon' src={Mail} alt='icono de mail'></img>
         </a>
-
         <a href='https://linkedin.com/in/margaritaberjon'>
           <img className='contact-icon' src={Linkedin} alt='icono de LinkedIn'></img>
         </a>
-
         <a href='https://github.com/MargaritaBerjon'>
-
           <img className='contact-icon' src={GitHub} alt='icono de GitHub'></img>
         </a>
-
       </div>
     </section >
   );
