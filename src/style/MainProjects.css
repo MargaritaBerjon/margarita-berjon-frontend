@@ -18,3 +18,9 @@
   text-orientation: upright;
   text-transform: uppercase;
 }
+
+@media (max-width: 900px) {
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
