@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getProjects } from '../services/API.js';
 import Poster from './Poster.js';
 import AboutMe from './AboutMe.js';
-// import MainProjects from './MainProjects.js'
+import MainProjects from './MainProjects.js'
 // import Experience from './Experience/Experience.js';
 // import Contact from './Contact.js';
 // import Footer from './Footer.js';
@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <Poster></Poster>
       <AboutMe></AboutMe>
-      {/* <MainProjects repos={projects} ></MainProjects> */}
+      <MainProjects repos={projects} ></MainProjects>
       {/* <Experience></Experience> */}
       {/* <Contact></Contact> */}
       {/* <Footer></Footer> */}
