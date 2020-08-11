@@ -14,12 +14,9 @@ function Experience() {
 
 
   function handleAnimation() {
-    if (document.documentElement.scrollTop > 1000) {
-      setLeft('card-left')
-    }
-
-    if (document.documentElement.scrollTop > 1000) {
-      setRight('card-right')
+    if (document.documentElement.scrollTop > 4000) {
+      setLeft('card-left-div')
+      setRight('card-right-div')
     }
 
   };
