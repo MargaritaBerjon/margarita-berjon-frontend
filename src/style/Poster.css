@@ -1,19 +1,18 @@
 .poster {
-  background: var(--gradient-background);
+  background: no-repeat center var(--gradient-background);
   height: 100vh;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.poster h1 {
-  letter-spacing: 1rem;
-  font-size: 5rem;
+.poster-h1 {
+  font-size: calc(4em + 1vw);
 }
 
-.poster h2 {
-  letter-spacing: 0.5rem;
-  font-size: 3rem;
+.poster-h2 {
+  font-size: calc(2em + 1vw);
 }
