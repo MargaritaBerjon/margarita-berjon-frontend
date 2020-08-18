@@ -3,7 +3,7 @@ import { getProjects } from '../services/API.js';
 import Poster from './Poster.js';
 import AboutMe from './AboutMe.js';
 import MainProjects from './MainProjects.js'
-// import Experience from './Experience/Experience.js';
+import Experience from './Experience/Experience.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
 import '../style/App.css';
@@ -51,7 +51,7 @@ function App() {
       <div className={visibility}>
         <AboutMe></AboutMe>
         <MainProjects repos={projects} ></MainProjects>
-        {/* <Experience></Experience> */}
+        <Experience></Experience>
         <Contact></Contact>
         <Footer></Footer>
 

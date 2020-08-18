@@ -14,7 +14,8 @@ function Experience() {
 
 
   function handleAnimation() {
-    if (document.documentElement.scrollTop > 4000) {
+    if (document.documentElement.scrollTop > 5000) {
+      console.log(document.documentElement.scrollTop);
       setLeft('card-left-div')
       setRight('card-right-div')
     }

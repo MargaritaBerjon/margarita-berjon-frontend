@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .poster-h1 {
@@ -19,7 +20,6 @@
 .startArrow {
   cursor: pointer;
   position: absolute;
-  padding: 10px;
   animation: vertical 2.5s infinite;
 }
 
