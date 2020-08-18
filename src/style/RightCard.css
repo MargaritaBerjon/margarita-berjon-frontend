@@ -2,14 +2,6 @@
   display: none;
 }
 
-/* .card-right {
-  margin-bottom: 5px;
-  animation-name: RightCard;
-  animation-duration: 3s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-} */
-
 .card-riht-div {
   margin-bottom: 5px;
   animation-name: RightCard;

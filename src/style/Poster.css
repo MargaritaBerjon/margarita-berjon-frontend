@@ -16,3 +16,21 @@
 .poster-h2 {
   font-size: calc(2em + 1vw);
 }
+.startArrow {
+  cursor: pointer;
+  position: absolute;
+  padding: 10px;
+  animation: vertical 2.5s infinite;
+}
+
+@keyframes vertical {
+  0% {
+    top: 70vh;
+  }
+  50% {
+    top: 75vh;
+  }
+  100% {
+    top: 70vh;
+  }
+}

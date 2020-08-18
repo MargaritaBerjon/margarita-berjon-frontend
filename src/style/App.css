@@ -21,3 +21,11 @@ section {
   padding: 1rem;
   background-color: var(--background-color);
 }
+
+.hide {
+  display: none;
+}
+
+.view {
+  display: unset;
+}
