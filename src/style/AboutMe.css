@@ -39,3 +39,18 @@
   padding: 1rem;
   margin: 0.5rem;
 }
+
+@media all and (min-width: 768px) {
+  .about-me {
+    flex-direction: row;
+  }
+
+  .about-me-p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .about-me-foto {
+    align-self: flex-start;
+  }
+}
