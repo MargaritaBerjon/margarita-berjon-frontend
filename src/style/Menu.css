@@ -4,9 +4,12 @@
   align-items: center;
   padding: 1rem;
   background-color: #a06b8a;
-  color: #ffffff;
   position: fixed;
   width: 100vw;
   box-shadow: 0px 6px 26px -8px rgba(0, 0, 0, 0.75);
   z-index: 999;
+}
+
+.menu-container a {
+  color: #ffffff;
 }

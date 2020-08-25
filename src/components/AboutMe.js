@@ -5,10 +5,10 @@ import MargaritaBerjon from '../images/Margarita_Berjon_web.jpg'
 
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id='AboutMe'>
       <img src={MargaritaBerjon} alt="Foto de Margarita Berjon" className='about-me-foto'></img>
       <div>
-        <h2 className='about-me-h2' id='AboutMe'>Sobre mí</h2>
+        <h2 className='about-me-h2' >Sobre mí</h2>
         <p className='about-me-p'>Soy Margarita Berjón, marketiniana digital reconvertida a frontend developer con conocimientos en diseño de experiencia de usuario y ganas de continuar aprendiendo. Mi experiencia y conocimientos en estas tres áreas me aportan una visión completa del proceso de desarrollo de productos digitales.</p>
         <div>
           <h2 className='about-me-h2'>Conocimientos</h2>

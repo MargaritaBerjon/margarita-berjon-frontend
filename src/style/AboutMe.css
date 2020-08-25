@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 51px;
 }
 
 .about-me-h2,
@@ -38,14 +39,6 @@
   text-align: center;
   padding: 1rem;
   margin: 0.5rem;
-}
-
-.about-me:before {
-  display: block;
-  content: ' ';
-  margin-top: -51px;
-  height: 51px;
-  visibility: hidden;
 }
 
 @media all and (min-width: 768px) {
