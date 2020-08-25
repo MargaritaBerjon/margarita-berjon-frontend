@@ -1,6 +1,6 @@
 import React from 'react';
 import Descargar from '../images/descargar.svg'
-import CV from '..Download/CV-Margarita-Berjon-Frontend.pdf'
+import CV from '../Download/CV-Margarita-Berjon-Frontend.pdf'
 import '../style/Download.css'
 
 function Download() {
