@@ -5,6 +5,7 @@ import Menu from './Menu.js';
 import AboutMe from './AboutMe.js';
 import MainProjects from './MainProjects.js'
 import Experience from './Experience/Experience.js';
+import Download from './Download.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
 import '../style/App.css';
@@ -53,6 +54,7 @@ function App() {
           <AboutMe></AboutMe>
           <MainProjects repos={projects} ></MainProjects>
           <Experience></Experience>
+          <Download></Download>
           <Contact></Contact>
         </main>
         <Footer></Footer>

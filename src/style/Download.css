@@ -1,0 +1,23 @@
+.download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgba(255, 121, 72, 1); */
+  border-top: 2px solid rgba(255, 121, 72, 1);
+  border-bottom: 2px solid rgba(255, 121, 72, 1);
+  width: fit-content;
+  padding: 1rem;
+}
+
+.download-h2 {
+  padding-bottom: 1rem;
+  font-size: xx-large;
+  color: var(--main-color);
+  text-align: center;
+}
