@@ -7,8 +7,8 @@ import '../style/Contact.css'
 function Contact() {
 
   return (
-    <section className='contact-container'>
-      <h2 className='contact-h2'>Contacto</h2>
+    <section className='contact-container' id='Contact'>
+      <h2 className='contact-h2' >Contacto</h2>
       <div className='contact-icons-container'>
         <a href='mailto:margui.berjon@gmail.com' target='_blank' rel='noopener noreferrer' alt='contactar por mail'>
           <img className='contact-icon' src={Mail} alt='icono de mail'></img>

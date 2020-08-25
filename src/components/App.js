@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getProjects } from '../services/API.js';
 import Poster from './Poster.js';
+import Menu from './Menu.js';
 import AboutMe from './AboutMe.js';
 import MainProjects from './MainProjects.js'
 import Experience from './Experience/Experience.js';
@@ -43,16 +44,17 @@ function App() {
   };
 
 
-
-
   return (
     <div className="App">
       <Poster start={start} animationStartArrow={animationStartArrow} posterStyle={posterStyle}></Poster>
       <div className={visibility}>
-        <AboutMe></AboutMe>
-        <MainProjects repos={projects} ></MainProjects>
-        <Experience></Experience>
-        <Contact></Contact>
+        <Menu></Menu>
+        <main className='main-container'>
+          <AboutMe></AboutMe>
+          <MainProjects repos={projects} ></MainProjects>
+          <Experience></Experience>
+          <Contact></Contact>
+        </main>
         <Footer></Footer>
 
       </div>

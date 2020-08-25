@@ -15,6 +15,7 @@
 a,
 button {
   cursor: pointer;
+  text-decoration: none;
 }
 
 section {
@@ -29,3 +30,9 @@ section {
 .view {
   display: unset;
 }
+
+.main-container {
+  padding-top: 51px;
+}
+
+

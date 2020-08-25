@@ -23,9 +23,9 @@ function Experience() {
   };
 
   return (
-    <div className="experience">
+    <div className="experience" id='Experience'>
       <div>
-        <h2 className='experience-h2'>Experiencia</h2>
+        <h2 className='experience-h2' >Experiencia</h2>
         <LeftCard classCard={left} text={<><h3>UX writer</h3><p>The cocktail - 2019</p></>} />
         <RightCard classCard={right} text={<><h3>Digital marketing manager</h3><p>Mariscal Abogados - 2013 a 2018</p></>} />
       </div>
