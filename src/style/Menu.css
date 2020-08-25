@@ -8,8 +8,15 @@
   width: 100vw;
   box-shadow: 0px 6px 26px -8px rgba(0, 0, 0, 0.75);
   z-index: 999;
+  font-size: calc(0.7rem + 1vw);
 }
 
 .menu-container a {
   color: #ffffff;
+}
+
+@media all and (min-width: 768px) {
+  .menu-container {
+    font-size: calc(1rem + 1vw);
+  }
 }
